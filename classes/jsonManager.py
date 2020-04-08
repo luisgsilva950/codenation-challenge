@@ -5,7 +5,7 @@ class JSONManager:
         pass
 
     def writeJSON(self, content):
-        with open('answer.json', 'w') as f:
+        with open('../answer.json', 'w') as f:
             json.dump(content, f)
 
     def readJSON(self, file):
